@@ -1,0 +1,128 @@
+@charset "ISO-8859-1";
+*{
+	margin:0;
+	padding:0;
+	font-family:verdana;
+	
+}
+
+{% load staticfiles %}
+body{
+      background-image: url('image/aniback3.jpg');
+      background-repeat:no-repeat;
+      background-size:cover;
+      background-attachment: fixed;
+     
+}
+
+#main{
+	width:100%;
+	height:100vh;
+	
+}
+
+nav{
+	width:100%;
+	height:80px;
+	background-color:#0000;
+	
+}
+
+nav ul{
+	float:right;
+	magin-right:30px;
+	
+}
+
+nav ul li{
+	list-style-type:none;
+	display:inline-block;
+	transition:0.8s all;
+	line-height:80px;
+}
+
+nav ul li:hover{
+	background-color:#f39d1a
+}
+nav ul li a{
+	text-decoration:none;
+	color:#000000;
+	padding:30px;
+	
+}
+
+.paragraph{
+	font-size:80px;
+	line-height:82px;
+	font-family:Luminari;
+	position:absolute;
+	right:950px;
+	top:80px;
+	text-decoration:underline wavy orange;
+}
+.paragraph1{
+	font-size:30px;
+	line-height:32px;
+	font-family:Comic Sans MS;
+	position:absolute;
+	right:270px;
+	top:150px;
+}
+.paragraph2{
+	font-size:20px;
+	line-height:22px;
+	font-family:verdana;
+	position:absolute;
+	right:80px;
+	top:250px;
+}
+.paragraph3{
+	font-size:30px;
+	line-height:32px;
+	font-family:Comic Sans MS;
+	position:absolute;
+	right:298px;
+	top:485px;
+	
+}
+.paragraph4{
+	font-size:20px;
+	line-height:22px;
+	font-family:verdana;
+	position:absolute;
+	right:120px;
+	top:600px;
+}
+.paragraph5{
+	font-size:30px;
+	line-height:32px;
+	font-family:Comic Sans MS;
+	position:absolute;
+	right:330px;
+	top:800px;
+}
+.paragraph6{
+	font-size:20px;
+	line-height:22px;
+	font-family:verdana;
+	position:absolute;
+	right:370px;
+	top:920px;
+}
+.paragraph7{
+	font-size:30px;
+	top:606px;
+	font-family:Comic Sans MS;
+	position:absolute;
+	right:308px;
+	top:1006px;
+}
+
+.paragraph8{
+	font-size:20px;
+	line-height:22px;
+	font-family:verdana;
+	position:absolute;
+	right:390px;
+	top:1106px;
+}

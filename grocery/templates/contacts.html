@@ -1,0 +1,36 @@
+<html>
+<body>
+<link href="/static/style2.css" rel="stylesheet"/>
+<link rel='icon' type='image/png' href ="/static/image/logo3.png"/>
+<div id="main">
+     <nav>
+     <img src="/static/image/logo2.png" width="200" height="80"/>
+           <ul>
+                 <li><a href="/grocery/home">home</a></li>
+                <li><a href="../products">products</a></li>
+                <li><a href="../offers">offers</a></li>
+                <li><a href="../about">about</a></li>
+                <li><a href="#">contacts</a></li>
+                
+                <li><a href="../terms">terms</a></li>
+                <li><a href="../feedback">feedback</a></li>
+            </ul>
+            </nav></div> 
+<p class="paragraph1">Contact Us:</p>
+<p class="paragraph2">Why you should contact us ?<br>______________________</p>
+<p class="paragraph3">- Contact is a medium of communication through which<br> you can share your ideas,views,problems or any issues<br>
+                        related to shopping.<br>- You can contact us through messages or e-mail.<br></p>
+<p class="paragraph4">E-Mail<br>_______________________</p>
+<p class="paragraph5">- to contact us, you can mail us in<br> customerservice@grocerbasket.com <br></p>
+<p class="paragraph6">Message<br>_______________________</p>
+<div class="box">
+                <form action="/grocery/contacts/" method="post">
+                      {% csrf_token %}
+                     <input type="text" name="Name" class="form-control" placeholder="Enter your name" required><br>
+                     <input type="number" name="Contact_no" class="form-control" placeholder="Enter your phone no." required><br>
+                     <input type="email" name="Email_id" class="form-control" placeholder="Enter your Email id" required><br>
+                     <textarea type="message" name="Message" class="form-control" placeholder="Message" rows="4"  required></textarea><br>
+                     <input type="submit" name="" class="form-control submit" value="SEND">
+                     </form></div>
+</body>
+</html>
